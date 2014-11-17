@@ -1,1 +1,126 @@
 /*General*/
+/*{*/
+    /*http://placehold.it/*/
+/*}*/
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    z-index: 99;
+}
+
+.top {
+    line-height: 30px;
+    border-top: 1px solid #DBDEE1;
+    border-bottom: 1px solid #DBDEE1;
+    background: none repeat scroll 0% 0% #F8F8F8;
+}
+
+.header .logo,
+.header form,
+.top .welcome,
+.top .links {
+    float: left;
+}
+
+.header .search {
+    line-height: 70px;
+}
+
+.top .welcome {
+    margin-right: 140px;
+}
+
+.header .search,
+.top .cart {
+    float: right;
+}
+
+.top .links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu {
+    background: none repeat scroll 0% 0% #585858;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    display: table;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu li {
+    display: table-cell;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.column-left {
+    float: left;
+    width: 180px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+}
+
+.column-left + .content {
+    margin-left: 195px;
+}
+
+.column-left .box-heading {
+    font-weight: bold;
+    font-size: 16px;
+    background: #cecece;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.column-left .box-category {
+    list-style: none;
+    margin: 0;
+    padding: 0 15px 20px;
+}
+
+.column-left .box-category > li {
+    border-bottom: 1px solid #f8ecf8;
+}
+
+.column-left .box-category a {
+    color: #000000;
+    font-size: 12px;
+    line-height: 25px;
+}
