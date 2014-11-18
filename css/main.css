@@ -7,6 +7,10 @@ body {
     font-family: 'Helvetica', sans-serif;
 }
 
+body a:hover {
+    text-decoration: none;
+}
+
 .clearfix:after {
     content: "";
     display: block;
@@ -123,4 +127,103 @@ body {
     color: #000000;
     font-size: 12px;
     line-height: 25px;
+}
+
+.breadcrumb {
+    background: #DBDEE1;
+    border-radius: 5px 5px 0 0;
+    padding: 0 5px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.breadcrumb a {
+    color: #000000;
+}
+
+.category-info .image {
+    float: left;
+}
+
+.category-info p {
+    margin: 0;
+    float: right;
+    width: 85%;
+}
+
+.category-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.category-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.category-list li:last-child {
+    margin-right: 0;
+}
+
+.category-list {
+    margin-bottom: 10px;
+}
+
+.category-list a {
+    display: block;
+    font-size: 14px;
+}
+
+.category-list a span {
+    display: block;
+}
+
+.product-info .left {
+    float: left;
+}
+
+.product-info .right {
+    float: right;
+}
+
+.product-filter div {
+    float: left;
+    margin-right: 20px;
+}
+
+.product-filter div:last-child {
+    margin-right: 0;
+}
+
+.product-list .right {
+    float: right;
+}
+
+.footer .column {
+    float: left;
+    width: 23%;
+    margin-right: 2.5%;
+}
+
+.footer .column:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.footer .column ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer .column li {
+    margin-bottom: 10px;
+}
+
+.footer .column a {
+    color: #000;
+}
+
+.powered {
+    float: right;
 }
